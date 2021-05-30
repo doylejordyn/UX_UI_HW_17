@@ -19,16 +19,17 @@ header img {
 
 
 ul {
-	padding: 10px;
-	
+	padding-left: 600px;
+	padding-right: 600px;
+ 
 }
 
 li {
 	display: inline;
 	list-style-type: none;
 	color: #ffffff;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
 
 }
 
