@@ -1,23 +1,16 @@
-.content {
-	width: 1440px;
-}
 
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
+
+
 .inlineblock {
 	display: inline-block;
 	vertical-align: top;
+	padding: 20px;
 	background-color: #000000;
 }
 
-.logo {
-	display: block;
-	width: 23%;
-	padding: 1%;
-	text-align: center;
-	
-}
 
 header img {
 	display: block;
@@ -27,12 +20,15 @@ header img {
 
 ul {
 	padding: 10px;
+	
 }
 
 li {
 	display: inline;
 	list-style-type: none;
 	color: #ffffff;
+	padding-left: 25px;
+	padding-right: 25px;
 
 }
 
