@@ -3,7 +3,8 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-.page {max-width: 1440px;}
+.page {max-width: 1440px;
+	text-align: center}
 
 .inlineblock {
 	display: inline-block;
@@ -15,7 +16,7 @@ body {
 
 ul {
 	width: 1360px;
-
+	text-align: center;
  
 }
 
@@ -28,9 +29,18 @@ li {
 
 }
 
+p {
+	font-weight: bold;
+	color:#ffffff;
+	font-size: 16px;
+	letter-spacing: 6px;
+}
+
 .heroimg img{
-	height: 200px;
-	text-align: center;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -50,11 +60,11 @@ margin: 0 auto;}
 .button {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	background-color: black;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 16px;}
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	font-size: 16px;}
 
 footer {
 	background-color: black;
@@ -63,7 +73,7 @@ footer {
 }
 
 footer ul {
-	display: inline-block;
+	text-align:center; 
 	vertical-align: top;
 	padding: 10px;
 }
